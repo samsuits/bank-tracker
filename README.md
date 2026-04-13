@@ -30,7 +30,7 @@ A simple Laravel-based app to track multiple bank accounts and their transaction
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/bank-tracker.git
+git clone https://github.com/samsuits/bank-tracker.git
 cd bank-tracker
 ```
 
