@@ -17,6 +17,7 @@
         <a href="/banks" class="text-blue-600">Banks</a>
         <a href="/transactions" class="text-blue-600">Transactions</a>
         <a href="/transactions/create" class="text-blue-600">Add Transaction</a>
+        <a href="/categories" class="text-blue-600">Categories</a>
     </div>
 
     <div class="bg-white p-4 rounded shadow">

@@ -72,7 +72,11 @@ class TransactionController extends Controller
             'current_balance' => $newBalance
         ]);
 
-        return redirect('/transactions')
-            ->with('success', 'Transaction added successfully');
+        return redirect('/transactions/create')
+            ->with('success', 'Transaction added successfully')
+            ->with('last_bank', $request->bank_id)
+            ->with('last_date', $request->date)
+            ->with('last_type',  $request->type)
+            ->with('last_category', $request->category_id);
     }
 }

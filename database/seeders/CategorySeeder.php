@@ -22,7 +22,11 @@ class CategorySeeder extends Seeder
             'Shopping',
             'Salary',
             'Investment',
-            'Other'
+            'Received',
+            'Paid',
+            'Loan Payment',
+            'Groceries',
+            'Other',
         ];
 
         foreach ($categories as $name) {
